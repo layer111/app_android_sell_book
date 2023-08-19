@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/item_imgchitiet"
+                android:src="@drawable/lam"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            <LinearLayout
+                android:layout_toEndOf="@+id/item_imgchitiet"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/item_tenchitiet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SHE"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:id="@+id/item_giachitiet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Giá: 400000vnd"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:id="@+id/item_slchitiet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Số lượng: 2"
+                        android:textSize="17dp"/>
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/danhgia"
+                    android:background="@drawable/button1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Đánh giá sản phẩm"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

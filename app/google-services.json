@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988041344061",
+    "project_id": "app-ban-sach-68573",
+    "storage_bucket": "app-ban-sach-68573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988041344061:android:5ca21b87fb3320f6ed6654",
+        "android_client_info": {
+          "package_name": "com.example.btlcuoiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988041344061-kt90tvjqkgs37hjlu170m817a119uiak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA87ALQCB7KwdvnmGtuL8YUq3r90yWQg7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988041344061-kt90tvjqkgs37hjlu170m817a119uiak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
